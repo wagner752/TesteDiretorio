@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-image: url(../_img/capa.png);
+    background-repeat: repeat;
+    
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.card{
+    width: 100%;
+    height: 95%;
+    margin: 5%;
+}
+
+.card:hover{
+    margin: -3%;
+    position: absolute;
+    
+}
+
+.cardAzul{
+    background-color: rgb(12,105,132);
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn ease 5s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.cardVerde{
+    background-color: rgb(137,210,64);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn ease 3s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.cardPreto{
+    background-color: rgb(24,31,37);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn ease 5s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.cardAzulClaro{
+    background-color: rgb(61,175,181);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn ease 4s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.cardAzulEscuro{
+    background-color: rgb(31,59,76);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn ease 3s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
